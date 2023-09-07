@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/imc/imc.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <div class="home">
+            <a id="home" href="./index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <h1>CALCULADORA IMC</h1>
+    </header>
+    <main>
+        <form>
+            <input type="text" id="estatura" class="input-padron" required="" placeholder="Ingrese su estatura en metros">
+            <input type="text" id="peso" class="input-padron" required="" placeholder="Ingrese su peso en kg">
+            <input type="button" value="Calcular" id="boton" class="calcular" onclick="calcularIMC()">
+        </form>
+        <div class="caja">
+            <img id="esconder" src="./CSS/Recursos/corazpn.png" alt="imagen">
+            <h1 id="resultado" class="outpout"></h1>
+            <h2 id="clasificacion"></h2>
+        </div>
+    </main>
+    <script src="./Scrypt/imc/imc.js"></script>
+</body>
+</html>

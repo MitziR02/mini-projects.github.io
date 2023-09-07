@@ -1,0 +1,66 @@
+body{
+    min-height: 100vh;
+    background-color: #fafcd3;
+    display: grid;
+    place-items: center;
+}
+
+body.dark-mode {
+    background-color: #575a65;
+}
+
+body.dark-mode #moon{
+    color: white;
+}
+
+body.dark-mode .felchaR{
+    color: white;
+}
+
+header{
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+}
+
+#moon{
+    cursor: pointer;
+    font-size: 3rem;
+    color: #085b5ecc;
+}
+
+#toggle{
+    display: none;
+}
+
+
+.felchaR{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #dc6378;
+}
+
+.calculadora{
+    background-color: #9adcb9;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 350px;
+    max-width: 80%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    gap: .5rem;
+    box-shadow: 0px 24px 32px -8px #085b5ecc;
+}
+
+.pantalla{
+    grid-column: 1/-1;
+    background-color: #5ac7aa;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-align: right;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: lighter;
+}

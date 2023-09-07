@@ -1,0 +1,49 @@
+
+.btn{
+    background-color: #e28796;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-op{
+    background-color: #dc6378;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#igual{
+    grid-column: span 2;
+    background-color: #207178;
+}
+
+#cero{
+    grid-column: span 2;
+}
+
+#igual:hover{
+    background-color: #101652;
+}
+
+.btn:hover{
+    background-color: #101652;
+}
+
+.btn-op:hover{
+    background-color: #101652;
+}
