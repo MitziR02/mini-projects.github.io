@@ -23,11 +23,16 @@ main{
     width: 80%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     position: relative;
     z-index: 2;
     /*background-color: #1c1c1d7e;*/
     padding: 2rem;
+}
+
+.countD-element{
+    margin: 1rem 2rem 1rem;
 }
 
 .titulo{
@@ -82,3 +87,12 @@ h3{
     opacity: 0.7;
    
 }*/
+
+@media screen and (max-width: 400px) {
+    body{
+        background-image: none;
+        background-color: rgb(15, 15, 15);
+        text-shadow: 0 0 5px orange,
+        0 0 15px orange;
+    }
+}   
