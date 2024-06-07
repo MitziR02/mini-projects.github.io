@@ -1,5 +1,5 @@
 // Estableciendo la fecha objetivo
-let fechaObjetivo = new Date('December 31, 2023 23:59:59').getTime();
+let fechaObjetivo = new Date('December 31, 2024 23:59:59').getTime();
 
 // Declarando Variables
 let diasElem = document.querySelector('.countD-dias-time');
